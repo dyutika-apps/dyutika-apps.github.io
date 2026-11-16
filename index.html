@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dyutika</title>
+<meta name="description" content="Dyutika makes simple, private Android apps: PicDocuFit (exam photo & signature resizer), Syllabuddy (attendance tracker & timetable) and Expiry Radar (document expiry reminder).">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="logo.png">
+<meta property="og:title" content="Dyutika">
+<meta property="og:description" content="Simple, private Android apps. Your files and data stay on your phone.">
+<meta property="og:image" content="https://dyutika-apps.github.io/logo.png">
+<style>
+  :root { --bg:#f7f6fc; --card:#ffffff; --ink:#1b1830; --muted:#5d5a72; --accent:#5b2fd0; --gold:#b87800; --line:#e6e2f3; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#120f22; --card:#1c1832; --ink:#eeecf7; --muted:#a9a5c0; --line:#2e2949; --accent:#a98bff; --gold:#ffc24d; } }
+  :root[data-theme="dark"] { --bg:#120f22; --card:#1c1832; --ink:#eeecf7; --muted:#a9a5c0; --line:#2e2949; --accent:#a98bff; --gold:#ffc24d; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height:1.55; }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 56px; }
+  header { display:flex; align-items:center; gap:16px; margin-bottom:8px; }
+  header img { width:64px; height:64px; border-radius:16px; flex:none; }
+  h1 { font-size: 2.1rem; margin: 0; letter-spacing:-0.01em; }
+  .sanskrit { color: var(--gold); font-size: 1rem; margin: 2px 0 0; }
+  .tag { color: var(--muted); margin: 16px 0 32px; font-size:1.05rem; }
+  .app { display:flex; gap:16px; align-items:flex-start; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; margin-bottom:16px; }
+  .app img { width:72px; height:72px; border-radius:16px; flex:none; }
+  .app h2 { margin:0; font-size:1.15rem; }
+  .app p { margin:6px 0 10px; color:var(--muted); }
+  .links { display:flex; flex-wrap:wrap; gap:4px 16px; }
+  .links a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .links a:hover { text-decoration: underline; }
+  footer { margin-top:32px; color:var(--muted); font-size:.9rem; }
+  footer a { color: var(--accent); }
+  @media (max-width: 480px) { .app { padding:16px; } .app img { width:56px; height:56px; } h1 { font-size:1.8rem; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="logo.png" alt="Dyutika logo">
+    <div>
+      <h1>Dyutika</h1>
+      <p class="sanskrit">द्युतिका · "the bright one"</p>
+    </div>
+  </header>
+  <p class="tag">Simple, private Android apps that make everyday tasks easy. Your files and data stay on your phone.</p>
+
+  <section class="app">
+    <img src="picdocufit/icon.png" alt="PicDocuFit icon">
+    <div>
+      <h2>PicDocuFit: Exam Photo &amp; Signature Resizer</h2>
+      <p>Resize your photo and signature to the exact KB, pixels and cm any exam or visa form asks for. Passport size photos, print sheets, PDF compress and merge.</p>
+      <div class="links">
+        <a href="https://play.google.com/store/apps/details?id=com.picdocufit.app">Google Play</a>
+        <a href="picdocufit/privacy.html">Privacy</a>
+        <a href="picdocufit/terms.html">Terms</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="app">
+    <img src="syllabuddy/icon.png" alt="Syllabuddy icon">
+    <div>
+      <h2>Syllabuddy: Attendance Tracker &amp; Timetable</h2>
+      <p>75% attendance and bunk calculator, class timetable widget, homework reminders and a grade calculator. Works offline, no account.</p>
+      <div class="links">
+        <a href="https://play.google.com/store/apps/details?id=com.syllabuddy.app">Google Play</a>
+        <a href="syllabuddy/privacy.html">Privacy</a>
+        <a href="syllabuddy/terms.html">Terms</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="app">
+    <img src="expiryradar/icon.png" alt="Expiry Radar icon">
+    <div>
+      <h2>Expiry Radar: Expiry Date Reminder &amp; Tracker</h2>
+      <p>Scan a passport, ID, warranty or bill and get reminded before it expires. Free trials, coupons and renewals too. Private and offline.</p>
+      <div class="links">
+        <a href="https://play.google.com/store/apps/details?id=com.brightvane.expiryradar">Google Play</a>
+        <a href="expiryradar/privacy.html">Privacy</a>
+        <a href="expiryradar/terms.html">Terms</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Dyutika is an independent app developer based in Lucknow, India.</p>
+    <p>Contact: <a href="mailto:shrestha.srivastava24@gmail.com">shrestha.srivastava24@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
